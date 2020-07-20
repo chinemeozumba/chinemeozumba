@@ -1,0 +1,207 @@
+    body {
+        position: relative;
+        width: 1920px;
+        height: 1080px;
+        background: #fffadb;
+    }
+
+    embed {
+        float: right;
+        margin-top: 0px;
+        padding-top: 149px;
+        margin-right: -40px;
+        padding-right: 0px;
+    }
+
+    #sec1 {
+        background-size: cover;
+    }
+
+    #mobile-head-writing {
+        text-align: left;
+        margin-left: 50px;
+        margin-right: 0px;
+        padding-right: 30px;
+        padding-left: 30px;
+        padding-top: 0px;
+    }
+
+    #sec2 {
+        margin-top: -10px;
+        padding-top: 0px;
+    }
+
+    #writing {
+        text-align: left;
+        float: left;
+        margin-left: 50px;
+        margin-right: 0px;
+        padding-right: 30px;
+        padding-left: 30px;
+        padding-top: 0px;
+    }
+
+
+    h1 {
+        position: absolute;
+        width: 986px;
+        height: 104px;
+        left: 200px;
+        top: 80px;
+
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 120px;
+        line-height: 141px;
+        display: flex;
+        align-items: center;
+        font-feature-settings: 'kern'off;
+
+        color: #2E3758;
+    }
+
+    h4 {
+        position: absolute;
+        width: 842px;
+        height: 53px;
+        left: 210px;
+        top: 228px;
+        font-family: Roboto Mono;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 42px;
+        line-height: 49px;
+
+        color: #2E3758;
+        /*letter-spacing: 0.2em;*/
+
+
+    }
+
+    #portfolio {
+        position: absolute;
+        width: 195px;
+        height: 55px;
+        left: 210px;
+        top: 350px;
+
+        font-family: Roboto Mono;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 42px;
+        text-decoration-line: underline;
+
+        color: #9C4C52;
+        cursor: pointer;
+    }
+
+    #linkedin {
+        position: absolute;
+        width: 175px;
+        height: 55px;
+        left: 507px;
+        top: 350px;
+
+        font-family: Roboto Mono;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 42px;
+        text-decoration: underline;
+
+        color: #9C4C52;
+        cursor: pointer;
+
+
+    }
+
+    #github {
+        position: absolute;
+        width: 142px;
+        height: 55px;
+        left: 774px;
+        top: 350px;
+        font-family: Roboto Mono;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 42px;
+        text-decoration-line: underline;
+        color: #9C4C52;
+        cursor: pointer;
+    }
+
+    #introduction1 {
+        position: absolute;
+        width: 920px;
+        height: 84px;
+        left: 210px;
+        top: 430px;
+        font-family: Roboto;
+        font-style: thin;
+        font-weight: 300;
+        font-size: 36px;
+        line-height: 42px;
+        letter-spacing: 0.0125em;
+        color: #2E3758;
+    }
+
+    #introduction2 {
+        position: absolute;
+        width: 870px;
+        height: 168px;
+        left: 210px;
+        top: 548px;
+
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 36px;
+        line-height: 42px;
+
+        color: #2E3758;
+        letter-spacing: 0.0125em;
+    }
+
+    button {
+        position: absolute;
+        width: 350px;
+        height: 64px;
+        left: 210px;
+        top: 820px;
+        color: #f7cec7;
+        background-color: #2E3758;
+        display: inline-block;
+        border-radius: 5px;
+        padding: 5px;
+        text-align: center;
+        width: 220px;
+        cursor: pointer;
+
+    }
+
+    #email {
+        width: 500px;
+        height: 64px;
+        color: #f7cec7;
+        font-family: 'Roboto Mono', monospace;
+        font-size: 30px;
+        padding-left: 2px;
+        margin-top: 0px;
+        padding-top: 0px;
+        font-weight: 300;
+        font-stretch: normal;
+    }
+
+    /* mouse over link */
+    a:hover {
+        color: #BE997C;
+        outline: 1px solid #BE997C
+    }
+
+    /* selected link */
+    a:active {
+        color: #BE997C;
+    }
